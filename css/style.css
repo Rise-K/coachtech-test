@@ -1,0 +1,66 @@
+*{
+  font-family: Shippori Mincho;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+header {
+  font-family: Amatic SC;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;
+  height: 70px;
+  color:#55bbbb;
+}
+
+.first-view {
+  background-image:url("../img/fv.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.first-view-ttl {
+  padding: 50px;
+  color:#000000;
+}
+
+.first-view-ttl > span {
+  color: #55bbbb;
+  font-size:50px;
+}
+
+.first-view-ttl > span:last-of-type {
+  color: #000000;
+}
+
+.first-view-subttl {
+  padding: 50px;
+  position: relative;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background:#FF4384;
+  position: absolute;
+  top:30%;
+  left:20%;
+}
+
+.circle > p{
+  font-size: 20px;
+  color: #FFF;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+.first-view-comment {
+  color: #55bbbb;
+  font-size:15px;
+  position: absolute;
+  top: 31%;
+  left: 25%;
+}
